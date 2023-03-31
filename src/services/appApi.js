@@ -5,7 +5,7 @@ import { createApi, fakeBaseQuery, fetchBaseQuery } from '@reduxjs/toolkit/query
 const appApi = createApi({
     reducerPath: 'appApi',
     baseQuery: fetchBaseQuery({
-        baseUrl: 'http://localhost:3001'
+        baseUrl: 'https://chat-app-backend-9lgr.onrender.com'
     }),
     endpoints: (builder) => ({
         //creating the user
