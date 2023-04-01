@@ -49,7 +49,7 @@ function Sidebar() {
 
 
     function getRooms() {
-        fetch('https://chat-app-backend-9lgr.onrender.com')
+        fetch('https://chat-app-backend-9lgr.onrender.com/rooms')
             .then((res) => res.json())
             .then((data) => setRooms(data))
     }
